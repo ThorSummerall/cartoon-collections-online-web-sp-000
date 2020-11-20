@@ -5,11 +5,9 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array = array.split(" ")
-  reversed_array = array.collect do |element|
+  array.collect do |element|
       element.capitalize
   end
-  reversed_array.join(" ")
 end
 
 def long_planeteer_calls# code an argument here
