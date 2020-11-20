@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)
   array = array.split(" ")
   reversed_array = array.collect do |element|
-      word.capitalize
+      element.capitalize
   end
   reversed_array.join(" ")
 end
