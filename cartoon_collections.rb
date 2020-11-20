@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array = sentence.split(" ")
+  array = array.split(" ")
   reversed_array = array.collect do |element|
       word.capitalize
   end
